@@ -48,12 +48,20 @@ main {
   color: white;
   font-size: 0.6em;
 }
+#shopAll a {
+  color: white;
+}
 
 #holiday {
   background-image: url("../images/bg-image.png");
   padding: 3em;
   text-align: center;
   color: white;
+}
+#holiday2 {
+  background-image: url("../images/bg-img.png");
+  padding: 3em;
+  text-align: center;
 }
 
 #holiday h2 {
