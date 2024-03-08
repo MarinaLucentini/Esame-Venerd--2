@@ -60,9 +60,12 @@ const cars = [
 
 for (let i = 0; i < cars.length; i++) {
   let j = 0;
-  cars[i].licensePlate = "AZ" + Math.floor(Math.random(j) * 401) + "DA";
+  cars[i].licensePlate = "AZ" + Math.floor(Math.random(j) * 1000) + "DA";
 }
 console.log(cars);
+
+// ho inseriro math.random per generare una targa diversa per ogni oggetto.
+
 /* ESERCIZIO 6
     Scrivi del codice per aggiungere un nuovo oggetto in ultima posizione nell'array "cars", rispettando
      la struttura degli altri elementi.

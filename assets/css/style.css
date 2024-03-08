@@ -7,6 +7,10 @@ h1 {
   font-size: 3em;
   margin: 0.5em;
 }
+h1,
+h2 {
+  font-weight: 750;
+}
 /* impostazione generale */
 header,
 footer {
@@ -42,7 +46,9 @@ main {
   text-align: center;
   margin-bottom: 2em;
   color: white;
+  font-size: 0.6em;
 }
+
 #holiday {
   background-image: url("../images/bg-image.png");
   padding: 3em;
@@ -77,7 +83,7 @@ section h3 {
   height: 400px;
   width: 325px;
   border-radius: 15px;
-  box-shadow: 5px 10px #80808042;
+  box-shadow: 5px 10px 20px #808080;
   overflow: hidden;
   display: inline-block;
   margin: 1em;
@@ -109,3 +115,4 @@ section h3 {
 footer {
   text-align: center;
 }
+/* footer */
