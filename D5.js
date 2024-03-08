@@ -12,7 +12,7 @@ REGOLE
 */
 const pets = ["dog", "cat", "hamster", "redfish"];
 for (let i = 0; i < pets.length; i++) {
-  console.log("Gli elementi dell'array sono:", pets[i]);
+  console.log("Uno degli elementi dell'array è:", pets[i]);
 }
 
 /* ESERCIZIO 2
